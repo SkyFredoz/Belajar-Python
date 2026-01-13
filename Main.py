@@ -133,4 +133,41 @@
 # kata = kata.lower()
 # print(kata)
 
-print("DiCoDiNg         ".rstrip())
+# print("DiCoDiNg         ".rstrip())
+# print(                  "DICODING".lstrip())
+# print(           "Dicoding             ".strip())
+# kata = "CodeCodeDicodingCodeCode"
+# print(kata.strip("Code"))
+
+# print("Dicoding Indonesia".endswith("Dicoding"))
+
+# print("".join(["Dicoding", " Indonesia", "!"]))
+# print("Dicoding Indonesia !".split())
+
+# print('''Halo!
+#       Aku 
+#       Adalah
+#       Ikan
+#       Tuna
+#       Yang'''.split('/n'))
+
+string = "Ayo Belajar Coding di Dicoding"
+print(string.replace("Coding", "Pemrograman"))
+
+kata = "DICODING"
+print(kata.isupper())
+
+kata = "DICODING"
+print(kata.islower())
+
+kata = "dicoding"
+print(kata.islower())
+
+kata = "anomali"
+print(kata.islower())
+
+kata = "dicoding"
+print(kata.isalpha())
+
+kata = "dicoding123"
+print(kata.isalnum())
